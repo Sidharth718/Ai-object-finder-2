@@ -3,7 +3,7 @@ input_text = "";
 
 function setup(){
     canvas = createCanvas(400,400);
-    canvas.center();
+    canvas.position(600,300);
     video = createCapture(VIDEO);
     video.size(400,400);
     video.hide();
